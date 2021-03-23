@@ -39,7 +39,7 @@ function get_all_data($conn)
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PHP CRM Dashboard</title>
-
+    <link rel="stylesheet" href="style.css">
     <!--    bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
