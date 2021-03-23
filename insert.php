@@ -25,7 +25,7 @@ if (isset($_POST['username']) && isset($_POST['email'])) {
                 // INSERT USER'S DATA INTO THE DATABASE
                 $insert_query = mysqli_query($conn, "INSERT INTO `users`(username,user_email) VALUES('$username','$user_email')");
 
-                //CHECK DATA INSERTED OR NOT
+                //CHECK IF RECORD HAS BEEN INSERTED
                 if ($insert_query) {
                     echo "<script>
                     alert('Record has been inserted');

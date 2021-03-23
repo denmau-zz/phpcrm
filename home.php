@@ -6,7 +6,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PHP CRM</title>
-    <link rel="canonical" href=" { { http://localhost/phpcrm } }{ { home.php } }"/>
     <!--    bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.css">
 
@@ -36,7 +35,8 @@
                     <input type="password" name="password" class="form-control">
                 </div>
                 <div class="form-row">
-                    <button type="submit" class="btn btn-success mt-2">Submit</button>
+                    <a href="http://localhost/phpcrm/dashboard.php" class="btn btn-success mt-2">Submit
+                    </a>
                 </div>
             </form>
         </div>

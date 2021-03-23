@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f6f7f9;
+}
